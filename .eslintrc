@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends":[
+        "eslint:recommended",
+        "prettier"
+    ],
+    "rules": {
+        "eqeqeq": "off",
+        "curly": "error",
+        "quotes": ["error", "double"]
+    },
+    "plugins": [
+        "react"
+    ]
+}
